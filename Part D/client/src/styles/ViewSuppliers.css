@@ -1,0 +1,25 @@
+.view-suppliers {
+    padding: 2rem;
+}
+
+.suppliers-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.supplier-card {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.supplier-card:hover {
+    transform: scale(1.05);  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

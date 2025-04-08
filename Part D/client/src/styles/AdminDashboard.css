@@ -1,0 +1,8 @@
+.admin-dashboard {
+    padding: 2rem;
+    direction: rtl;
+}
+
+.buttons-container button {
+    min-width: 200px;
+}

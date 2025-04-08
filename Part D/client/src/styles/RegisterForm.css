@@ -1,0 +1,110 @@
+/* General styling for the form container */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Styling for input fields */
+.mb-3 {
+    margin-bottom: 1.5rem;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+/* Styling for labels */
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+/* Success and error messages */
+small {
+    display: block;
+    margin-top: 0.5rem;
+}
+
+.text-green-600 {
+    color: #28a745;
+}
+
+.text-red-600 {
+    color: #dc3545;
+}
+
+/* Button styling */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Button classes */
+.p-button-info {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.p-button-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Products section */
+.mt-3 {
+    margin-top: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button.ml-2 {
+    margin-left: 8px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,82 @@
+body {
+    background-color: #eef2f3; 
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.p-inputtext-lg {
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    transition: border-color 0.3s;
+}
+
+.p-inputtext-lg:focus {
+    border-color: #3498db; 
+    outline: none;
+}
+
+.p-button-lg {
+    width: 100%;
+    font-size: 16px;
+    background-color: #3498db;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.p-button-lg:hover {
+    background-color: #2980b9;
+}
+
+.p-button-lg:disabled {
+    background-color: #ddd;
+}
+
+.text-red-500 {
+    color: #e74c3c;
+    font-size: 14px;
+}
+
+.text-green-600 {
+    color: #2ecc71;
+    font-size: 14px;
+}
+
+.p-button-text {
+    color: #3498db;
+    font-size: 14px;
+}
+
+.mt-6 {
+    margin-top: 6rem;
+}
+
+.icon {
+    margin-right: 8px;
+    font-size: 18px;
+}
